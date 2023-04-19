@@ -1,0 +1,256 @@
+@font-face {
+  font-family: "Larsseit";
+  src: url("../fonts/Larsseit.otf");
+}
+.title {
+  font-family: "Larsseit", serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 27px;
+  letter-spacing: -0.035em;
+  color: #62d0df;
+}
+.header {
+  width: 100%;
+  background: #F4F9E2;
+}
+.header-container {
+  padding: 27px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.header-title {
+  font-family: "Larsseit", serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 27px;
+  letter-spacing: -0.035em;
+  color: #62d0df;
+}
+.header-list {
+  display: flex;
+}
+.header-list-item {
+  padding: 0 30px;
+  font-family: "Larsseit", serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: #22356f;
+}
+.header-btn {
+  z-index: 2;
+  padding: 20px 30px;
+  font-family: "Larsseit", serif;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  background: #62d0df;
+  border-radius: 50px;
+}
+.main {
+  width: 100%;
+  background: #F4F9E2;
+}
+.main-container {
+  padding-top: 165px;
+  display: flex;
+}
+.main-text-title {
+  font-family: "Larsseit", serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 27px;
+  letter-spacing: -0.035em;
+  color: #62d0df;
+}
+.main-text-subtitle {
+  margin-top: 40px;
+  font-family: "Larsseit", serif;
+  font-size: 48px;
+  line-height: 53px;
+  letter-spacing: -0.035em;
+  color: #22356f;
+}
+.main-text-content {
+  margin-top: 40px;
+  font-family: "Larsseit", serif;
+  font-size: 24px;
+  line-height: 42px;
+  color: #22356f;
+}
+.main-text-btn {
+  margin-right: 8px;
+  padding: 10px 30px;
+  font-family: "Larsseit", serif;
+  font-size: 16px;
+  line-height: 23px;
+  color: #f9b640;
+}
+.main-text-btn:hover {
+  background: #f9b640;
+  color: #ffffff;
+}
+.main-text-container-btns {
+  margin-top: 63px;
+  display: flex;
+}
+.main-img-blue {
+  position: absolute;
+  top: -112px;
+  right: 0;
+}
+.main-img-men {
+  position: absolute;
+  top: -100px;
+  right: 0;
+  z-index: 1;
+}
+.whythrive {
+  width: 100%;
+  background: #62d0df;
+}
+.whythrive-container {
+  display: flex;
+  justify-content: space-between;
+}
+.whythrive-title {
+  margin-top: 151px;
+  font-family: "Larsseit", serif;
+  font-size: 36px;
+  line-height: 27px;
+  letter-spacing: -0.006em;
+  color: #ffffff;
+}
+.whythrive-content {
+  margin-top: 75px;
+  font-family: "Larsseit", serif;
+  font-size: 24px;
+  line-height: 35px;
+  color: #ffffff;
+}
+.whythrive-img {
+  width: 525px;
+  height: 604px;
+}
+.about-us {
+  width: 100%;
+  padding: 150px 0 120px 560px;
+}
+.about-us-title {
+  font-family: "Larsseit", serif;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #22356f;
+}
+.about-us-content {
+  margin-left: 252px;
+  width: 592px;
+  font-family: "Larsseit", serif;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 0.005em;
+  color: #22356f;
+}
+.cards-title {
+  margin-top: 76px;
+  font-family: "Larsseit", serif;
+  font-size: 16px;
+  text-align: center;
+  line-height: 19px;
+  letter-spacing: 0.06em;
+  color: rgba(34, 53, 111, 0.5);
+}
+.cards-container {
+  display: flex;
+  width: 100%;
+  margin-top: 24px;
+}
+.cards-card {
+  padding: 72px 70px 0;
+  width: 25%;
+  height: 360px;
+}
+.cards-card-line {
+  height: 2px;
+  background: #ffffff;
+}
+.cards-card-circle {
+  display: inline-block;
+  margin-bottom: 6px;
+  width: 9px;
+  height: 9px;
+  background: #f9b640;
+  border-radius: 50%;
+}
+.cards-card-content {
+  display: inline-block;
+  padding-top: 23px;
+  margin-left: 15px;
+  font-family: "Larsseit", serif;
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: -0.006em;
+  color: #ffffff;
+}
+.sixcards {
+  margin-top: 120px;
+  display: flex;
+}
+.sixcards-second {
+  margin-bottom: 100px;
+  display: flex;
+}
+.sixcards-card {
+  padding: 96px 70px 0;
+  width: 33.33%;
+  height: 480px;
+}
+.sixcards-card-line {
+  height: 2px;
+  background: #ffffff;
+}
+.sixcards-card-circle {
+  display: inline-block;
+  margin-bottom: 6px;
+  width: 9px;
+  height: 9px;
+  background: #f9b640;
+  border-radius: 50%;
+}
+.sixcards-card-content {
+  display: inline-block;
+  padding-top: 30px;
+  margin-left: 15px;
+  font-family: "Larsseit", serif;
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: -0.006em;
+  color: #ffffff;
+}
+.container {
+  position: relative;
+}
+.background-pink {
+  background: #FFE2DE;
+}
+.background-creen {
+  background: #C4E769;
+}
+.background-akva {
+  background: #62D0DF;
+}
+.background-blue {
+  background: #0052C1;
+}
+.background-darkblue {
+  background: #22356F;
+}
+.background-violet {
+  background: #8F00FF;
+}
+.background-img {
+  background-image: url("../img/strawberries.png");
+}

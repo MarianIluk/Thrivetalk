@@ -1,0 +1,63 @@
+@import "./variables.less";
+@import "./mixin.less";
+
+.main {
+    width: 100%;
+    background: #F4F9E2;
+    &-container {
+        padding-top: 165px;
+        display: flex;
+    }
+    &-text {
+        &-title {
+            .title();
+        }
+        &-subtitle {
+            margin-top: 40px;
+            font-family: "Larsseit", serif;
+            font-size: 48px;
+            line-height: 53px;
+            letter-spacing: -0.035em;
+            color: @darkblue;
+        }
+        &-content {
+            margin-top: 40px;
+            font-family: "Larsseit", serif;
+            font-size: 24px;
+            line-height: 42px;
+            color: @darkblue;
+        }
+        &-btn {
+            margin-right: 8px;
+            padding: 10px 30px;
+            font-family: "Larsseit", serif;
+            font-size: 16px;
+            line-height: 23px;
+            color: @orange;
+        }
+        &-btn:hover {
+            background: @orange;
+            color: @white;
+        }
+        &-container {
+            &-btns {
+                margin-top: 63px;
+                display: flex;
+            }
+        }
+    }
+    &-img {
+        &-blue {
+            position: absolute;
+            top: -112px;
+            right: 0;
+            
+        }
+        &-men {
+            position: absolute;
+            top: -100px;
+            right: 0;
+            z-index: 1;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+@import "./mixin.less";
+
+.header {
+    width: 100%;
+    background: #F4F9E2;
+    &-container {
+        padding: 27px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    &-title {
+        .title();
+    }
+    &-list {
+        display: flex;
+        &-item {
+            padding: 0 30px;
+            font-family: "Larsseit", serif;
+            font-size: 14px;
+            line-height: 16px;
+            color: @darkblue;
+        }
+    }
+    &-btn {
+        z-index: 2;
+        padding: 20px 30px;
+        font-family: "Larsseit", serif;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        color: @white;
+        background: @mainblue;
+        border-radius: 50px;
+    }
+}

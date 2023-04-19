@@ -1,0 +1,35 @@
+.title {
+  font-family: "Larsseit", serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 27px;
+  letter-spacing: -0.035em;
+  color: #62D0DF;
+}
+.whythrive {
+  width: 100%;
+  background: #62D0DF;
+}
+.whythrive-container {
+  display: flex;
+  justify-content: space-between;
+}
+.whythrive-title {
+  margin-top: 151px;
+  font-family: "Larsseit", serif;
+  font-size: 36px;
+  line-height: 27px;
+  letter-spacing: -0.006em;
+  color: #FFFFFF;
+}
+.whythrive-content {
+  margin-top: 75px;
+  font-family: "Larsseit", serif;
+  font-size: 24px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+.whythrive-img {
+  width: 525px;
+  height: 604px;
+}
